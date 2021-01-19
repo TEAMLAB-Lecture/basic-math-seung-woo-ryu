@@ -91,7 +91,7 @@ def get_median(number_list):
     number_list.sort()
 
     if length % 2:
-        return sum(number_list[length//2-1,length//2 + 1])
+        return sum(number_list[length//2-1,length//2 + 1])/2
     else:
         return number_list[length//2]
     
